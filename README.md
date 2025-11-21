@@ -18,14 +18,14 @@ Edge computing load data shows the processing demand and resource utilization ac
 
 The dataset used in this project is a collection of edge computing load data for mobile phone operators in Nigeria.
 
-Visual exploratory analysis of the "nigerian-telecom-edge-computing-load-data" dataset to understand distributions of load, utilization, and categorical dimensions across Nigerian edge nodes
+This project is a visual exploratory analysis of the "nigerian-telecom-edge-computing-load-data" dataset to understand distributions of load, utilization, and categorical dimensions across Nigerian edge nodes
 
 ## Dataset
 - Source: https://huggingface.co/datasets/electricsheepafrica/nigerian-telecom-edge-computing-load-data
 - Format: Parquet (recommended)
 - Rows ~ 250k, Columns ~ 14
 
-The notebook automatically downloads the Parquet file from the Hugging Face Hub using `huggingface_hub`. No manual data download needed.
+The notebook automatically downloads the Parquet file from the Hugging Face Hub using `pandas`. No manual data download needed.
 
 ## Project Structure
 - `notebooks/edge_load_status_eda.ipynb` — Main EDA notebook
@@ -69,7 +69,7 @@ jupyter notebook
 - Requires `pyarrow` for Parquet reads.
 - Timezone: dataset timestamps are in WAT context; analysis uses naive timestamps as provided.
 
-## Operator-Level Conclusions Of The Analysis
+## [Operator-Level Conclusions Of The Analysis](./reports/visualization_interpretations.md)
 
 - **High-load share varies slightly by operator**: 39.067% (MTN) to 39.523% (9mobile).
 - **Peak high-load hours cluster in the evening**: 9:00–13:00 across operators.
