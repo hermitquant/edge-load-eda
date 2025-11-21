@@ -56,7 +56,7 @@ jupyter notebook
 4) Open `notebooks/edge_load_status_eda.ipynb` and run cells.
 
 ## What the notebook does
-- Loads dataset from Hugging Face (tries Parquet)
+- Target: `load_status` (e.g., low, medium, high). This notebook loads the dataset from the Hugging Face Hub and visualizes feature distributions conditioned on the target.
 - Overview: shape, dtypes, missing values, memory usage
 - Numeric distributions: histograms and boxplots for utilization/throughput/latency/session metrics
 - Categorical distributions: city, application, operator, load_status (+ top edge_node_id)
