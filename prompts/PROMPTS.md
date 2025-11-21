@@ -1,6 +1,8 @@
 # Prompt Log
 
-This file tracks prompts used in this project.
+This file tracks prompts used in this project as well as a picture of my local WindSurf setup.
+
+![Local WindSurf setup](image.png)
 
 ```markdown
 Prompt: We are starting out a project. The aim of this project is to create a python notebook that would help visualize the distribution of features within the edge computing load dataset.  Please use this dataset to develop this project https://huggingface.co/datasets/electricsheepafrica/nigerian-telecom-edge-computing-load-data
@@ -41,4 +43,3 @@ Prompt: Can you also add to the visualization_interpretations file, a descriptio
 ```markdown
 Prompt: Are there any conclusions you can draw from the visualization interpretations, grouped by operator ? If yes, then add that to the end of the visualization_interpretations file
 ```
-

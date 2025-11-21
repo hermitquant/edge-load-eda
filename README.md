@@ -31,7 +31,7 @@ The notebook automatically downloads the Parquet file from the Hugging Face Hub 
 - `notebooks/edge_load_status_eda.ipynb` — Main EDA notebook
 - `requirements.txt` — Python dependencies
 - `figures/` — Created at runtime when saving plots (optional)
-- `prompts/` - Created to hold prompts used in project
+- `prompts/` - Created to hold prompts and images of local WindSurf setup used in project
 - `reports/` - Created to hold the visualization reports
 
 ## Setup (Windows)
