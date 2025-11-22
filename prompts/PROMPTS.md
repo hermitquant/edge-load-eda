@@ -43,3 +43,7 @@ Prompt: Can you also add to the visualization_interpretations file, a descriptio
 ```markdown
 Prompt: Are there any conclusions you can draw from the visualization interpretations, grouped by operator ? If yes, then add that to the end of the visualization_interpretations file
 ```
+
+```markdown
+Add heavy coments to the code so as to understand what each section of code is doing
+```
